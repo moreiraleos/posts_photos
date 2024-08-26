@@ -1,0 +1,14 @@
+.float-button {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #3f51b5;
+  color: white;
+  border-radius: 50%;
+}
+
+/* Define a cor de fundo da toolbar como indigo */
+mat-toolbar {
+  background-color: #3f51b5; /* Cor Indigo */
+  color: white; /* Cor do texto branco */
+}

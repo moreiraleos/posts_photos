@@ -1,0 +1,11 @@
+::ng-deep .mat-dialog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+::ng-deep .mat-form-field-wrapper {
+  padding-right: 8px !important;
+  width: 100% !important; /* Ou um valor específico, como 500px */
+}
