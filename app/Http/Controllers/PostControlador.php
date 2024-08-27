@@ -60,7 +60,7 @@ class PostControlador extends Controller
     public function like(string $id)
     {
         if ($post = Post::find($id)) {
-            $post->like++;
+            $post->likes++;
             $post->save();
             return $post;
         }

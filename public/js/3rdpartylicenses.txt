@@ -72,12 +72,12 @@ License: "MIT"
 
 
 --------------------------------------------------------------------------------
-Package: @angular/flex-layout
+Package: @angular/platform-server
 License: "MIT"
 
 
 --------------------------------------------------------------------------------
-Package: @angular/platform-server
+Package: @angular/flex-layout
 License: "MIT"
 
 

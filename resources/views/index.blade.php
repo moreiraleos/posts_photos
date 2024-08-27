@@ -65,7 +65,7 @@
     </script>
     <app-root></app-root>
     <script src="{{ asset('js/browser/polyfills-SCHOHYNV.js') }} " type="module"></script>
-    <script src="{{ asset('js/browser/main-OG3YO23V.js') }}" type="module"></script>
+    <script src="{{ asset('js/browser/main-BNECXUGY.js') }}" type="module"></script>
 </body>
 
 </body>
