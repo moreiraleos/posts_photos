@@ -63,6 +63,22 @@ export class PostService {
   like(id: number) {
     this.http.get('/api/like/' + id).subscribe((event: any) => {
       console.log(event);
+      let p = this.posts.find((p) => p.id == id);
+      if (p) {
+        p.likes = event.likes;
+      } else {
+        console.error(`Post com id ${id} não foi encontrado.`);
+      }
+    });
+  }
+
+  apagar(id: number) {
+    this.http.delete('/api/' + id).subscribe((event: any) => {
+      console.log(event);
+      let i = this.posts.findIndex((p) => p.id == id);
+      if (i >= 0) {
+        this.posts.splice(i, 1);
+      }
     });
   }
 }
